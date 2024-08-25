@@ -1,0 +1,487 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+    font-family: "poppins";
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    
+}
+.names{
+    display: flex;
+    color: aliceblue;
+    gap: 40px;
+    list-style: none;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    left: 150px;
+}
+.menubar{
+    display: flex; 
+}
+
+
+.video{
+    
+    position: relative;
+    top: 0.1px;
+    z-index: 1;
+}
+.video img{
+    width: 100%;
+    height: 600px;
+    position: relative;
+     z-index: 1;
+     bottom: 40px;
+    
+} 
+#yellowbox{
+    display: flex;
+    background-color: #fff0bb;
+    height: 40px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    border-radius: 10px;
+    z-index: 2;
+}
+.persnolinformation{
+    display: flex;
+}
+.information{
+    position: relative;
+    left: 100px;
+    font-weight: 400;
+}
+
+
+
+#button1{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+}
+#button2{
+    border-color: blue;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#button3{
+    color: white;
+    height: 52px;
+    width: 240px;
+    background-color: rgb(88, 81, 81);
+    position: relative;
+    left: 625px;
+    top: 13px;
+    border-radius: 25px;
+}
+
+.logoimg{
+    position: relative;
+    top: 4.5px;
+}  
+.myphoto{
+    position: relative;
+    left: 450px;
+    bottom: 260px;
+    height: 250px;
+    z-index: 5px;
+}
+.suitable{
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    top: 50px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 30px 0px rgb(182, 178, 178);
+}
+.suitablefor h3{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-weight: 600;
+}
+.work1 {
+    list-style: none;
+    position: relative;
+    top: 45px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+}
+.Frontend{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.exp{
+    display: flex;
+    height: 220px;
+    position: relative;
+    top: 130px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 30px 0px rgb(182, 178, 178);
+}
+.workimg img{
+    height: 200px;
+    width: 200px;position: relative;
+    left: 10px;
+    top:10px;
+    border-radius: 16px;
+}
+.workexp h2{
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+.workexp p{
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+.skill{
+    position: relative;
+    top: 170px;
+    left: 100px;
+}
+.techskills{
+    display: flex;
+    height: 200px;
+    position: relative;
+    top: 210px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0px 4px 30px 0px rgb(182, 178, 178);
+}
+.softskills{
+    position: relative;
+    top: 260px;
+    left: 100px;
+}
+.softskill{
+    display: flex;
+    height: 220px;
+    position: relative;
+    top: 290px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0px 4px 30px 0px rgb(182,178,178)
+}
+.project{
+    position: relative;
+    left: 100px;
+    top: 340px;
+}
+.projectes{
+    height: 450px;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 375px;
+    box-shadow: 0px 4px 30px 0px rgb(182, 178, 178);
+    display: flex;
+    justify-content: space-evenly;
+}
+ .project1 img{
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+    position: relative;
+    left: 5px;
+    top: 2px;
+ }
+ .project1 button{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    font-weight: 500;
+    position: relative;
+    top: 25px;
+    left: 5px;
+ }
+ .project1{
+    height: 400px;
+    width: 320px;
+    position: relative;
+    left: 25px;
+    top: 20px;
+    box-shadow: 0px 4px 30px 0px rgb(182, 178, 178);
+}
+ 
+ .project1 p{
+    position: relative;
+
+    
+ }
+ .project2 h2{
+    position: relative;
+    left: 5px;
+ }
+ .project2 img{
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+    position: relative;
+    left: 5px;
+    top: 2px;
+ }
+ .project2 button{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    font-weight: 500;
+    position: relative;
+    top: 25px;
+    left: 5px;
+ }
+ .project2{
+    height: 400px;
+    width: 320px;
+    position: relative;
+    left: 25px;
+    top: 20px;
+    box-shadow: 0px 4px 30px 0px rgb(182, 178, 178);
+
+}
+ 
+ .project2 p{
+    position: relative;
+    left: 5px;
+ }
+ .project2 h2{
+    position: relative;
+    left: 5px;
+ }
+ .project3 h2{
+    position: relative;
+    left: 5px;
+ }
+ .project3 img{
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+    position: relative;
+    left: 5px;
+    top: 2px;
+ }
+ .project3 button{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    font-weight: 500;
+    position: relative;
+    top: 25px;
+    left: 5px;
+ }
+ .project3{
+    height: 400px;
+    width: 320px;
+    position: relative;
+    left: 25px;
+    top: 20px;
+    box-shadow: 0px 4px 30px 0px rgb(182, 178, 178);
+}
+ 
+ .project3 p{
+    position: relative;
+    left: 5px;
+ }
+ .project3 h2{
+    position: relative;
+    left: 5px;
+ }
+ .circle{
+    position: relative;
+    top: 425px;
+    display: flex;
+    justify-content: center;
+ }
+ #less{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: relative;
+    border: 0.75px solid black;
+    left: 55px;
+    bottom: 35px;
+ }
+ #greater{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: relative;
+    border: 0.75px solid black;
+    left: 55px;
+    margin-left: 15px;
+    bottom: 35px;
+ }
+ 
+ #great{
+    position: relative;
+    left: 15px;
+    bottom: 20px;
+ }
+ #leesthen{
+    position: relative;
+    right: 45px;
+    bottom: 20px;
+ }
+ .Qualification h2{
+    position: relative;
+    top: 425px;
+    left: 100px;
+ }
+ .lineimg img{
+    position: relative;
+    top: 490px;
+    left: 110px;
+ }
+ .school h2{
+    position: relative;
+    bottom: 90px;
+    left: 155px;
+ }
+ .school p{
+    position: relative;
+    bottom: 75px;
+    left: 155px;
+ }
+ .juniorcollege h2{
+    position: relative;
+    bottom: 20px;
+    left: 155px;
+ }
+ .juniorcollege  p{
+    position: relative;
+    bottom: 5px;
+    left: 155px;
+ }
+ .Heieghcollege h2{
+    position: relative;
+    top: 60px;
+    left: 155px;
+ }
+ .Heieghcollege  p{
+    position: relative;
+    top: 75px;
+    left: 155px;
+ }
+ .classes h2{
+    position: relative;
+    top: 210px;
+    left: 155px;
+ }
+ .classes  p{
+    position: relative;
+    top: 230px;
+    left: 155px;
+ }
+ .degreeimg img{
+    position: relative;
+    bottom: 400px;
+    left: 740px;
+ }
+ .degreeimg p{
+    position: relative;
+    bottom: 430px;
+    left: 790px;
+ }
+ .lastimg{
+    height: 135px;
+    width: 135px;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60px;
+    left: 250px;
+    
+ }
+ .lastimg img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 18px;
+    top: 4px;
+    
+    
+ }
+ .footer{
+    width: 100%;
+    background-color: black;
+    height: 350px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    
+ }
+ .lastname p{
+    font-weight: 500;
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 100px;
+ }
+ .email{
+    position: relative;
+    font-weight: 400;
+    top: 120px;
+    right: 50px;
+    color: white;
+ }
+ .phone{
+    color: white;
+    position: relative;
+    font-weight: 400;
+    top: 160px;
+    right: 250px;
+ }
+ .suitablefor hr{
+   position: relative;
+   top: 28px;
+   margin-left: 400px;
+   margin-right: 400px;
+   
+ }  
+ .masteres h2{
+   position: relative;
+   top: 132px;
+   left: 155px;
+ } 
+ .masteres p{
+   position: relative;
+   left: 155px;
+   top: 140px;
+ }
+ 
+
